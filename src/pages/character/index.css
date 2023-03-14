@@ -1,0 +1,33 @@
+.character {
+    width: 100vw;
+    min-height: 80vh;
+    background-size: fill;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.character div {
+    width: 80%;
+    margin: 50px auto;
+    color: white;
+    text-shadow: 0px 0px 2px black;
+    padding: 50px;
+    border: 2px solid white;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.156), rgba(0, 0, 0, 0.599));
+}
+
+.character div h1{
+    text-align: center;
+}
+
+.character div a{
+    color: white;
+    text-decoration: underline;
+}
+
+.link-ep {
+    display: inline-block;
+    margin: 10px;
+}
